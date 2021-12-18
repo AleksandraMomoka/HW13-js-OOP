@@ -1,0 +1,9 @@
+.in-progres {
+    width: 500px;
+    background-color: gold;
+    margin-top: 10px;
+}
+
+.done {
+    background-color: green;
+}
