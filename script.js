@@ -38,7 +38,6 @@ class TodoList {
         let searchLis = '';
         for(let el of this.todos) {
             if(el.value.includes(input.value)) {
-                console.log(el.value);
                 searchLis += `<li data-id="${el.id}" class="in-progres">${el.value}<button class="set-status">Change status</button><button class="delete">Delete</button></li>`;
             }
             this.el.innerHTML = searchLis;
